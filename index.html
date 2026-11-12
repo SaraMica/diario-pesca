@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>App Pesca – diario di pesca in mare</title>
+  <meta name="description" content="App Pesca: diario personale delle uscite di pesca in mare, con condizioni meteo e mare previste e reali.">
+  <style>
+    :root { --testo:#0F1C2A; --secondario:#5A6878; --sfondo:#F7FAFC; --riquadro:#FFFFFF; --bordo:#D8E1EA; --primario:#1F6FB2; }
+    @media (prefers-color-scheme: dark) {
+      :root { --testo:#E8EEF4; --secondario:#9AA8B6; --sfondo:#0E1620; --riquadro:#16212D; --bordo:#26384A; --primario:#6CB4F0; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height:1.6; color:var(--testo); background:var(--sfondo); }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+    h1 { font-size: 2rem; margin: 0 0 4px; }
+    h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+    .sotto { color: var(--secondario); margin: 0 0 24px; }
+    .riquadro { background: var(--riquadro); border:1px solid var(--bordo); border-radius: 12px; padding: 16px 20px; }
+    ul { padding-left: 20px; }
+    a { color: var(--primario); }
+    footer { margin-top: 40px; font-size: .9rem; color: var(--secondario); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>🎣 App Pesca</h1>
+  <p class="sotto">Diario personale delle uscite di pesca in mare, per iPhone, iPad e Android.</p>
+
+  <div class="riquadro">
+    <p>App Pesca serve a registrare le proprie uscite di pesca in mare e a capire, nel tempo, in quali condizioni si pesca meglio.</p>
+    <ul>
+      <li><strong>Uscite e catture:</strong> data, ora, posto, specie, quantità, tecnica, esca, peso e misure, partendo da una foto o a mano.</li>
+      <li><strong>Condizioni:</strong> vento, mare, pressione, luna e marea previsti per l’uscita (fonti gratuite: Open-Meteo e Consorzio LaMMA), da confermare o correggere con quello che si è visto davvero.</li>
+      <li><strong>Statistiche:</strong> catture per tecnica, specie e condizioni, e quanto sono state affidabili le previsioni.</li>
+      <li><strong>Backup su Google Drive (facoltativo):</strong> una copia dei dati nella cartella riservata dell’app nel Google Drive dell’utente, per non perderli e ritrovarli su un altro dispositivo.</li>
+    </ul>
+  </div>
+
+  <h2>Privacy</h2>
+  <p>I dati restano sul dispositivo e, solo se l’utente lo sceglie, nel suo Google Drive. Nessuno, nemmeno chi ha creato l’app, può vederli. I dettagli sono nelle <a href="privacy.html">norme sulla privacy</a>.</p>
+
+  <h2>Contatti</h2>
+  <p>Per domande o richieste: <a href="mailto:appesca-supporto@googlegroups.com">appesca-supporto@googlegroups.com</a></p>
+
+  <footer>App Pesca è un progetto personale, senza pubblicità e senza scopo di lucro.</footer>
+</main>
+</body>
+</html>
